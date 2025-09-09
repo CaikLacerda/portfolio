@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+.section-title {
+    @apply mb-5 lg:hidden text-2xl tracking-tight font-bold uppercase
+}
+
+.link-tags{
+    @apply flex flex-wrap text-xs md:text-sm px-4 py-1 rounded-xl font-semibold bg-zinc-800 border-sky-500 text-sky-500 group-hover/link:bg-sky-500 group-hover/link:text-white
+}

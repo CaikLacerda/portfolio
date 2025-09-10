@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .section-title {
-    @apply mb-5 lg:hidden text-2xl tracking-tight font-bold uppercase
+    @apply mb-5 text-2xl tracking-tight font-bold uppercase
 }
 
 .link-tags{

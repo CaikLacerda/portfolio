@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div id="about" class="h-screen flex items-center justify-center text-justify">
+  <div id="about" class="flex items-center justify-center text-justify">
     <div class="max-w-4xl mx-auto px-6 text-zinc-300">
       <h2 class="section-title text-center text-3xl md:text-4xl font-bold text-sky-400 tracking-wide">
         Sobre mim

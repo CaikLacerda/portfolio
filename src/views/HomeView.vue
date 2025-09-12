@@ -5,6 +5,7 @@
   import About from '@/components/About.vue'
   import Footer from '@/components/Footer.vue';
   import ProjectPreviewCard from '@/components/cards/projects/ProjectPreviewCard.vue';
+  import HardSkillsCard from '@/components/cards/skills/HardSkillsCard.vue';
 </script>
 
 <template>
@@ -21,7 +22,7 @@
 
     <hr class="my-10 w-1/2 mx-auto border-0.5 border-sky-200">
 
-    <h2 class="section-title text-center text-3xl md:text-4xl font-bold text-sky-400 tracking-wide">
+    <h2 id="projects" class="section-title text-center text-3xl md:text-4xl font-bold text-sky-400 tracking-wide">
         Projetos
     </h2>
     <div class="w-20 h-1 bg-sky-500 mx-auto mb-4 rounded"></div>
@@ -64,6 +65,15 @@
         />
       </li>
     </ol>
+
+    <hr class="my-10 w-1/2 mx-auto border-0.5 border-sky-200">
+
+    <h2 id="skills" class="section-title text-center text-3xl md:text-4xl font-bold text-sky-400 tracking-wide">
+        Habilidades
+    </h2>
+    <div class="w-20 h-1 bg-sky-500 mx-auto mb-4 rounded"></div>
+
+    <HardSkillsCard />
     
   </div>
   <Footer />

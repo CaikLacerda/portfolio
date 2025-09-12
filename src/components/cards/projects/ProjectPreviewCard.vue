@@ -13,7 +13,7 @@
 </script>
 
 <template>
-  <BaseRedirectCard id="projects" :link="props.link" list_classes="lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+  <BaseRedirectCard :link="props.link" list_classes="lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
     <div class="flex flex-col justify-between md:px-10">
       <div class="mb-3">
         <img aria-label="Imagem de Apresentacao do Projeto {{ props.title }}" :src="props.preview_link" alt="Imagem de Apresentacao do projeto {{ props.title }}" class="w-100 wd:w(500px) rounded-xl border-5 border-slate-800 group-hover/link:border-slate-700">

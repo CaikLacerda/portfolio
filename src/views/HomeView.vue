@@ -1,8 +1,8 @@
 <script setup lang="ts">
   import Hero from '@/components/Hero.vue';
-  import Navbar from '@/components/Navbar.vue'
-  import SocialMedia from '@/components/SocialMedia.vue'
-  import About from '@/components/About.vue'
+  import Navbar from '@/components/Navbar.vue';
+  import SocialMedia from '@/components/SocialMedia.vue';
+  import About from '@/components/About.vue';
   import Footer from '@/components/Footer.vue';
   import ProjectPreviewCard from '@/components/cards/projects/ProjectPreviewCard.vue';
   import HardSkillsCard from '@/components/cards/skills/HardSkillsCard.vue';
@@ -36,7 +36,7 @@
           :description="[
             'Um projeto com foco em energias renováveis e sustentáveis, criado para auxiliar empresas e pessoas que se interessam em investir na instalação de painéis de energia solar ou hélices de energia eólica, o nosso sistema realiza uma estimativa de valores a ser investidos e o retorno financeiro sobre eles, neste projeto pude me aprofundar em regras de negócios envolvendo energias renováveis e também pude colocar em prática meus conhecimentos técnico com Ruby on Rails, Vue.js e PostgreSQL'
           ]"
-          preview_link="#"
+          preview_link="public/images/solaria.png"
           link="https://github.com/calvesEsl/Solaria"
           :tags="['Vue.js', 'Bootstrap5', 'Ruby on Rails', 'PostgreSQL', 'OCR', 'APIs']"
         />
@@ -48,7 +48,7 @@
           :description="[
             'Meu primeiro porfolio desenvolvido com o intuíto de ter um ambiente onde posso descrever minhas habilidades, meus contatos e mostrar meus projetos para recrutadores e interessados. Neste projeto me aprofundei em tecnologias como TailwindCSS e Vue.js'
           ]"
-          preview_link="#"
+          preview_link="/images/portfolio_image.PNG"
           link="https://github.com/CaikLacerda/portfolio"
           :tags="['Vue.js', 'TailwindCSS']"
         />
@@ -60,7 +60,7 @@
           :description="[
             'Nosso grupo desenvolveu uma aplicação de um chat que permite a interação entre usuários que estão conectados na mesma rede, neste projeto colocamos em prática conceitos de redes como Broadcast, Threads entre outros, também ampliamos conhecimento em ferramentas como Python e Flask para criar a aplicação'
           ]"
-          preview_link="#"
+          preview_link="/images/chat_online.jpg"
           link="https://github.com/CaikLacerda/ChatLanPython"
           :tags="['Bootstrap5', 'Python', 'Flask', 'Broadcast']"
         />

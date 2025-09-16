@@ -27,7 +27,7 @@
     </h2>
     <div class="w-20 h-1 bg-sky-500 mx-auto mb-4 rounded"></div>
 
-    <ol class="group/list">
+    <ol class="group/list p-10">
       <li class="mb-5">
         <ProjectPreviewCard
           title="Solaria"
@@ -73,7 +73,7 @@
     </h2>
     <div class="w-20 h-1 bg-sky-500 mx-auto mb-4 rounded"></div>
 
-    <HardSkillsCard />
+    <HardSkillsCard class="p-10"/>
 
     <hr id="experience" class="my-10 w-1/2 mx-auto border-0.5 border-sky-200">
 
@@ -82,7 +82,7 @@
     </h2>
     <div class="w-20 h-1 bg-sky-500 mx-auto mb-4 rounded"></div>
 
-    <ol class="group/list">
+    <ol class="group/list p-10">
       <li class="mb-5">
         <JobCard 
           enterprise="ESL - Excelência em Sistemas Logísticos"

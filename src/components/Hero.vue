@@ -3,7 +3,7 @@ import TypeWritter from '@/components/animations/TypeWritter.vue';
 </script>
 
 <template>
-  <header class="w-full flex items-center justify-center p-10">
+  <header class="w-full flex items-center justify-center p-18">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center w-full max-w-6xl">
       
       <!-- Coluna do texto -->

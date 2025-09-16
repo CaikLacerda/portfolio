@@ -10,19 +10,19 @@
 </script>
 
 <template>
-  <div class="top-0 w-full flex flex-col justify-center p-10 items-center">
+  <div class="top-0 w-full flex flex-col justify-center items-center">
 
     <Hero />
     <Navbar class="mt-10"/>
-    <SocialMedia class="mt-70"/>
+    <SocialMedia class="mt-60"/>
     
-    <hr class="my-10 w-1/2 mx-auto border-0.5 border-sky-200">
+    <hr id="about" class="my-10 w-1/2 mx-auto border-0.5 border-sky-200">
 
     <About />
 
-    <hr class="my-10 w-1/2 mx-auto border-0.5 border-sky-200">
+    <hr id="projects" class="my-10 w-1/2 mx-auto border-0.5 border-sky-200">
 
-    <h2 id="projects" class="section-title text-center text-3xl md:text-4xl font-bold text-sky-400 tracking-wide">
+    <h2 class="section-title text-center text-3xl md:text-4xl font-bold text-sky-400 tracking-wide">
         Projetos
     </h2>
     <div class="w-20 h-1 bg-sky-500 mx-auto mb-4 rounded"></div>
@@ -66,18 +66,18 @@
       </li>
     </ol>
 
-    <hr class="my-10 w-1/2 mx-auto border-0.5 border-sky-200">
+    <hr id="skills" class="my-10 w-1/2 mx-auto border-0.5 border-sky-200">
 
-    <h2 id="skills" class="section-title text-center text-3xl md:text-4xl font-bold text-sky-400 tracking-wide">
+    <h2 class="section-title text-center text-3xl md:text-4xl font-bold text-sky-400 tracking-wide">
         Habilidades
     </h2>
     <div class="w-20 h-1 bg-sky-500 mx-auto mb-4 rounded"></div>
 
     <HardSkillsCard />
 
-    <hr class="my-10 w-1/2 mx-auto border-0.5 border-sky-200">
+    <hr id="experience" class="my-10 w-1/2 mx-auto border-0.5 border-sky-200">
 
-    <h2 id="experience" class="section-title text-center text-3xl md:text-4xl font-bold text-sky-400 tracking-wide">
+    <h2 class="section-title text-center text-3xl md:text-4xl font-bold text-sky-400 tracking-wide">
         Experiência
     </h2>
     <div class="w-20 h-1 bg-sky-500 mx-auto mb-4 rounded"></div>

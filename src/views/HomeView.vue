@@ -6,6 +6,7 @@
   import Footer from '@/components/Footer.vue';
   import ProjectPreviewCard from '@/components/cards/projects/ProjectPreviewCard.vue';
   import HardSkillsCard from '@/components/cards/skills/HardSkillsCard.vue';
+  import JobCard from '@/components/cards/jobs/JobCard.vue';
 </script>
 
 <template>
@@ -74,7 +75,37 @@
     <div class="w-20 h-1 bg-sky-500 mx-auto mb-4 rounded"></div>
 
     <HardSkillsCard />
-    
+
+    <hr class="my-10 w-1/2 mx-auto border-0.5 border-sky-200">
+
+    <h2 id="experience" class="section-title text-center text-3xl md:text-4xl font-bold text-sky-400 tracking-wide">
+        Experiência
+    </h2>
+    <div class="w-20 h-1 bg-sky-500 mx-auto mb-4 rounded"></div>
+
+    <ol class="group/list">
+      <li class="mb-5">
+        <JobCard 
+          enterprise="ESL - Excelência em Sistemas Logísticos"
+          job_title="Analista de Suporte"
+          link="https://eslsistemas.com.br"
+          period="Inicio: outubro/2025 - Atual"
+          :description="['Atuando no acompanhamento de tickets e suporte via telefone. Nesse período, desenvolvi habilidades fundamentais para um analista de suporte, como comunicação clara, empatia no atendimento, agilidade na resolução de problemas e organização para gerenciar múltiplas demandas. Além disso, aprimorei minha capacidade de análise, atenção a detalhes e trabalho em equipe, sempre focado em garantir uma experiência positiva ao cliente e a solução eficaz das ocorrências.']"
+          :tags="['Ruby', 'PostgreSQL', 'JIRA', 'Comunicação', 'Proatividade']"
+        />
+      </li>
+
+      <li class="mb-5">
+        <JobCard 
+          enterprise="Sonoco do Brasil"
+          job_title="Estagiário de Inovação"
+          link="https://pt-br.sonoco.com/latam"
+          period="Inicio: abril/2024 - setembro/2024"
+          :description="['Atuei no desenvolvimento de soluções tecnológicas voltadas para a Indústria 4.0, com foco em aplicações para óculos de realidade mista e aumentada, especialmente no dispositivo Microsoft HoloLens. Minhas atividades incluíram a condução de treinamentos operacionais sobre as ferramentas criadas, garantindo melhor uso e aplicação prática no dia a dia. Também fui responsável pela integração e análise de dados, utilizando planilhas de KPIs para monitorar resultados e otimizar processos. Além disso, desempenhei atividades complementares de informática, sempre com o objetivo de aumentar a eficiência e a produtividade operacional.']"
+          :tags="['Power BI', 'Microsoft Hololens', 'Treinamentos', 'Proatividade', 'Trabalho em Equipe']"
+        />
+      </li>
+    </ol>
   </div>
   <Footer />
 </template>

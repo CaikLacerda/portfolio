@@ -11,11 +11,10 @@
 
 <template>
   <div class="top-0 w-full flex flex-col justify-center p-10 items-center">
-    <section class="h-screen">
-      <Hero />
-      <Navbar />
-      <SocialMedia />
-    </section>
+
+    <Hero />
+    <Navbar class="mt-10"/>
+    <SocialMedia class="mt-70"/>
     
     <hr class="my-10 w-1/2 mx-auto border-0.5 border-sky-200">
 

@@ -1,31 +1,25 @@
 <script setup lang="ts">
-import { defineProps, onMounted } from 'vue';
-import { ref } from 'vue';
+import { onMounted, ref } from 'vue';
 import Typed from 'typed.js';
 
-const props = defineProps({
-    classes: { type: String, default: "text-medium font-semibold" },
-    msgs: { type: Array as () => string[], default: ['Desenvolvedor Full-Stack', 'Ruby on Rails/Vue.js']},
-    typeSpeed: { type: Number, default: 300 },
-    startDelay: { type: Number, default: 0 },
-    loop: { type: Boolean, default:false }
-});
-
-const classes = ref(props.classes);
 const typedTarget = ref();
 
 onMounted(() => {
-    if (!typedTarget.value) return;
+  if (!typedTarget.value) return;
 
-    let typedInstance = new Typed(typedTarget.value, {
-        strings: props.msgs,
-        typeSpeed: props.typeSpeed,
-        startDelay: props.startDelay,
-        loop: props.loop,
-    });
+  new Typed(typedTarget.value, {
+    strings: [
+      'Olá, eu me chamo <span class="text-sky-500">Caik Lacerda</span><br> e sou Desenvolvedor Full-Stack com Ruby on Rails e Vue.js.'
+    ],
+    typeSpeed: 50,
+    startDelay: 300,
+    loop: false,
+    showCursor: true,
+    cursorChar: '|'
+  });
 });
 </script>
 
 <template>
-    <span ref="typedTarget" :class="classes"></span>
+  <span ref="typedTarget" class="text-4xl font-semibold"></span>
 </template>

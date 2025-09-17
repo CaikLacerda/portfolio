@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import TypeWritter from '@/components/animations/TypeWritter.vue';
+import SocialMedia from './SocialMedia.vue';
 </script>
 
 <template>
@@ -17,15 +18,16 @@ import TypeWritter from '@/components/animations/TypeWritter.vue';
         </h1>
       </div>
 
-      <!-- Coluna da imagem -->
-      <div class="flex justify-center lg:justify-end">
+      <!-- Coluna da imagem + SocialMedia -->
+      <div class="flex flex-col items-center lg:items-center mt-15">
         <img
           src="../assets/images/picture.JPG"
           alt="Minha foto"
           class="w-60 h-60 lg:w-72 lg:h-72 rounded-2xl object-cover shadow-lg ring-2 ring-blue-500"
         />
-      </div>
 
+        <SocialMedia />
+      </div>
     </div>
   </header>
 </template>

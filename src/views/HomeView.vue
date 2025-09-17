@@ -14,14 +14,11 @@
 
     <Hero />
     <Navbar class="mt-10"/>
-    <SocialMedia class="mt-60"/>
     
     <hr id="about" class="my-10 w-1/2 mx-auto border-0.5 border-sky-200">
-
     <About />
 
     <hr id="projects" class="my-10 w-1/2 mx-auto border-0.5 border-sky-200">
-
     <h2 class="section-title text-center text-3xl md:text-4xl font-bold text-sky-400 tracking-wide">
         Projetos
     </h2>
@@ -67,28 +64,24 @@
     </ol>
 
     <hr id="skills" class="my-10 w-1/2 mx-auto border-0.5 border-sky-200">
-
     <h2 class="section-title text-center text-3xl md:text-4xl font-bold text-sky-400 tracking-wide">
         Habilidades
     </h2>
     <div class="w-20 h-1 bg-sky-500 mx-auto mb-4 rounded"></div>
-
     <HardSkillsCard class="p-10"/>
 
     <hr id="experience" class="my-10 w-1/2 mx-auto border-0.5 border-sky-200">
-
     <h2 class="section-title text-center text-3xl md:text-4xl font-bold text-sky-400 tracking-wide">
         Experiência
     </h2>
     <div class="w-20 h-1 bg-sky-500 mx-auto mb-4 rounded"></div>
-
     <ol class="group/list p-10">
       <li class="mb-5">
         <JobCard 
           enterprise="ESL - Excelência em Sistemas Logísticos"
           job_title="Analista de Suporte"
           link="https://eslsistemas.com.br"
-          period="Inicio: outubro/2025 - Atual"
+          period="Inicio: outubro/2024 - Atual"
           :description="['Atuando no acompanhamento de tickets e suporte via telefone. Nesse período, desenvolvi habilidades fundamentais para um analista de suporte, como comunicação clara, empatia no atendimento, agilidade na resolução de problemas e organização para gerenciar múltiplas demandas. Além disso, aprimorei minha capacidade de análise, atenção a detalhes e trabalho em equipe, sempre focado em garantir uma experiência positiva ao cliente e a solução eficaz das ocorrências.']"
           :tags="['Ruby', 'PostgreSQL', 'JIRA', 'Comunicação', 'Proatividade']"
         />
